@@ -1,0 +1,22 @@
+<meta charset="UTF-8"> 
+
+<h3>¿Alcohol o gasolina?</h3>
+
+<script>
+
+	var tamañoTanque=40;
+	var DistanciaRecorrida_gasolina=480;
+	var DistanciaRecorrida_alcohol=300;
+	var eficiencia=0;
+
+
+	eficiencia= Math.round(DistanciaRecorrida_gasolina/tamañoTanque);
+	document.write("<br>");
+	document.write("<br>");
+	document.write("La eficiencia del automovil usando gasolina es: "+eficiencia+(" Km/L."));
+	document.write("<br>");
+	document.write("<br>");
+	eficiencia= Math.round(DistanciaRecorrida_alcohol/tamañoTanque);
+	document.write("La eficiencia del automovil usando alcohol es: "+eficiencia+(" Km/L."));
+
+</script>
